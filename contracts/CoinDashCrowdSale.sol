@@ -11,7 +11,7 @@ import "./ConvertLib.sol";
 contract CoinDashCrowdSale is StandardToken {
 
   string public name = "CoinDashToken";
-  string public symbol = "CDT";
+  string public symbol = "NT";
   uint public decimals = 18;
 
   // 1 ether = 500 example tokens 
