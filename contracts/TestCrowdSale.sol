@@ -4,11 +4,11 @@ import "../contracts/zeppelin/token/StandardToken.sol";
 import "./ConvertLib.sol";
 
 /*
- * CoinDashCrowdSale
+ * TestCrowdSale
  *
  * Simple ERC20 Token example, with crowdsale token creation
  */
-contract CoinDashCrowdSale is StandardToken {
+contract TestCrowdSale is StandardToken {
 
   string public name = "CoinDashToken";
   string public symbol = "NT";
@@ -37,7 +37,7 @@ contract CoinDashCrowdSale is StandardToken {
 }
 
 
-// CoinDashCrowdSale.deployed().then(function(instance) {return instance.balanceOf('0xcfbe06187478a09fb0d4d69c5a0fa1d29901790b'); }).then(function(result) { console.log(result); });
+// TestCrowdSale.deployed().then(function(instance) {return instance.balanceOf('0xcfbe06187478a09fb0d4d69c5a0fa1d29901790b'); }).then(function(result) { console.log(result); });
 
-// CoinDashCrowdSale.deployed().then(function(instance) {return instance.createTokens('0x1c7c8b877212368a343e4f15f24b03ced78d4d2b', {value: web3.toWei(1, 'ether')}); }).then(function(result) { console.log(result); });
+// TestCrowdSale.deployed().then(function(instance) {return instance.createTokens('0x1c7c8b877212368a343e4f15f24b03ced78d4d2b', {value: web3.toWei(1, 'ether')}); }).then(function(result) { console.log(result); });
 
